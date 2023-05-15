@@ -1,11 +1,10 @@
 import './App.css';
-import Plot from "react-plotly.js";
-import AmountDevicesPerOs from "./Components/AmountDevicesPerOs";
+ import AllCountries from "./Components/AllCountries";
 
 function App() {
   return (
     <div className="App">
-      <AmountDevicesPerOs />
+      <AllCountries />
     </div>
   );
 }
